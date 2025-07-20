@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Savio Rodricks</title>
+
+        <script src="./assets/js/script.js"></script>
+
+        <!--
+    - favicon
+  -->
+    <style>
+
+    </style>
+        <link
+            rel="shortcut icon"
+            href="./assets/images/image.png"
+            type="image/x-icon"
+        />
+        
+
+        <!--
+    - custom css link
+  -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+
+        <!--
+    - google font link
+  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            /* Style for the container */
+        .links-container {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        /* Style for the logos */
+        .logo {
+            width: 40px; /* Adjust size as needed */
+            height: 40px;
+        }
+        </style>
+    </head>
+
+    <body>
+        <!--
+    - #MAIN
+  -->
+
+        <main>
+            <!--
+      - #SIDEBAR
+    -->
+
+            <aside class="sidebar" data-sidebar>
+                <div class="sidebar-info">
+                    <figure class="avatar-box">
+                        <img
+                            src="./assets/images/self1.jpg"
+                            alt="Savio Rodricks"
+                            width="50"
+                            height="120"
+                            style="border-radius: 10px;"
+                        />
+                    </figure>
+
+                    <div class="info-content">
+                        <h1 class="name" title="Savio R">Savio R</h1>
+
+                        <p class="title">Software Developer</p>
+                    </div>
+
+                    <button class="info_more-btn" data-sidebar-btn>
+                        <span>Show Contacts</span>
+
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </button>
+                </div>
+
+                <div class="sidebar-info_more">
+                    <div class="separator"></div>
+
+                    <ul class="contacts-list">
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Email</p>
+
+                                <a
+                                    href="mailto:rodrickssavio2@gmail.com"
+                                    class="contact-link"
+                                    >rodrickssavio2@gmail.com</a
+                                >
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Location</p>
+
+                                <address>Mumbai, India</address>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="separator"></div>
+
+                    <ul class="social-list">
+                        <li class="social-item">
+                            <a
+                                href="https://www.linkedin.com/in/savior7/"
+                                class="social-link"
+                            >
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li class="social-item">
+                            <a
+                                href="https://github.com/Savio-R7"
+                                class="social-link"
+                            >
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+
+            <!--
+      - #main-content
+    -->
+
+            <div class="main-content">
+                <!--
+        - #NAVBAR
+      -->
+
+                <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <button class="navbar-link active" data-nav-link>
+                                About
+                            </button>
+                        </li>
+
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>
+                                Resume
+                            </button>
+                        </li>
+
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>
+                                Portfolio
+                            </button>
+                        </li>
+
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>
+                                Publications
+                            </button>
+                        </li>
+
+                        <li class="navbar-item">
+                            <button class="navbar-link" data-nav-link>
+                                Contact
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                
+
+                <!--
+        - #ABOUT
+      -->
+                <article class="about active" data-page="about">
+                    <header>
+                        <h2 class="h2 article-title">About me</h2>
+                    </header>
+
+                    <section class="about-text">
+                        <p>
+                            Results-driven Backend Developer with ~1 year of experience. Proficient in DSA and System Design (LLD, HLD). 
+                            Passionate about building impactful tech solutions and solving real-world problems.
+                        </p>
+                    </section>
+
+
+                    <header>
+                        <h2 class="h2 article-title">Coding Profiles</h2>
+                    </header>
+                    <section class="about-text"></section>
+                    <div class="links-container">
+                        <!-- Link 1 -->
+                        <a href="https://leetcode.com/u/s4v_07/" target="_blank">
+                            <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" class="logo">
+                        </a>
+                
+                        <!-- Link 2 -->
+                        <a href="https://www.codechef.com/users/savior" target="_blank">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIZeQjsAAjJfZCwkusa3rAxmv7YUiZ1OKI2CwYIXQR9L1Jo6Afx-Ct_cPAZ9tJOZGEexY&usqp=CAU" alt="CodeChef" class="logo">
+                        </a>
+                
+                        <!-- Link 3 -->
+                        <a href="https://codeforces.com/profile/Savior7" target="_blank">
+                            <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="CodeForces" class="logo">
+                        </a>
+                
+                        <!-- Link 4 -->
+                        <a href="https://auth.geeksforgeeks.org/user/unknownrf7" target="_blank">
+                            <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GFG" class="logo">
+                        </a>
+
+                        <a href="https://github.com/Savio-R7" target="_blank">
+                            <img src="./assets/images/github-mark-white.png" alt="Github" class="logo">
+                        </a>
+                    </div>
+                    </section>
+                    <br>
+
+                    <!--
+          - service
+        -->
+          <br>
+        <header>
+            <h2 class="h2 article-title">What i'm doing</h2>
+        </header>
+                    <section class="service">
+                       
+
+                        <ul class="service-list">
+                            <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img
+                                        src="./assets/images/icon-app.svg"
+                                        alt="mobile app icon"
+                                        width="40"
+                                    />
+                                </div>
+
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">
+                                        Web Development
+                                    </h4>
+
+                                    <p class="service-item-text">
+                                        Developing user-centric and functional web apps.
+                                    </p>
+                                </div>
+                            </li>
+                             <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img
+                                        src="./assets/images/icon-dev.svg"
+                                        alt="Blockchain icon"
+                                        width="40"
+                                    />
+                                </div>
+
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">
+                                        Competitive Coding
+                                    </h4>
+
+                                    <p class="service-item-text">
+                                        Crafting elegant solutions, optimizing code, 
+                                        and approaching problems from unique angles.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img
+                                        src="./assets/images/icon-ml.svg
+                "
+                                        alt="design icon"
+                                        width="40"
+                                    />
+                                </div>
+
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">
+                                        Machine Learning
+                                    </h4>
+
+                                    <p class="service-item-text">
+                                        Solving real problems through impactful
+                                        data science leveraging ML.
+                                    </p>
+                                </div>
+                            </li>
+
+                           
+
+                            
+
+                            <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img
+                                        src="./assets/images/icon-music.svg"
+                                        alt="camera icon"
+                                        width="40"
+                                    />
+                                </div>
+
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">Music</h4>
+
+                                    <p class="service-item-text">
+                                        Casually listening to music while coding, blending
+                                        creativity and technology.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!--
+          - clients
+        -->
+
+                    <!-- <section class="clients">
+                        <h3 class="h3 clients-title">Clients</h3>
+
+                        <ul class="clients-list has-scrollbar">
+                            <li class="clients-item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/logo-1-color.png"
+                                        alt="client logo"
+                                    />
+                                </a>
+                            </li>
+
+                            <li class="clients-item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/logo-2-color.png"
+                                        alt="client logo"
+                                    />
+                                </a>
+                            </li>
+
+                            <li class="clients-item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/logo-3-color.png"
+                                        alt="client logo"
+                                    />
+                                </a>
+                            </li>
+
+                            <li class="clients-item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/logo-4-color.png"
+                                        alt="client logo"
+                                    />
+                                </a>
+                            </li>
+
+                            <li class="clients-item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/logo-5-color.png"
+                                        alt="client logo"
+                                    />
+                                </a>
+                            </li>
+
+                            <li class="clients-item">
+                                <a href="#">
+                                    <img
+                                        src="./assets/images/logo-6-color.png"
+                                        alt="client logo"
+                                    />
+                                </a>
+                            </li>
+                        </ul>
+                    </section> -->
+                </article>
+
+                <!--
+        - #RESUME
+      -->
+
+                <article class="resume" data-page="resume">
+                    <header>
+                        <h2 class="h2 article-title">Resume</h2>
+                    </header>
+
+                    <section class="timeline">
+                        <div class="title-wrapper">
+                            <div class="icon-box">
+                                <ion-icon name="book-outline"></ion-icon>
+                            </div>
+
+                            <h3 class="h3">Education</h3>
+                            <a
+                                href="https://drive.google.com/file/d/1ids1RPX2yjuYurmXgZzcpTwRrl1o3LGY/view?usp=sharing"
+                                target="_blank"
+                                class="form-btn"
+                            >
+                                <ion-icon name="document-outline"></ion-icon>
+                                <span>View full Resume</span>
+                            </a>
+                        </div>
+
+                        <ol class="timeline-list">
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">
+                                    Fr. Conceicao Rodrigues College of
+                                    Engineering, Bandra
+                                </h4>
+
+                                <span>2020 — 2024 </span>
+                                <span>8.5 CGPA</span>
+
+                                <p class="timeline-text">
+                                    Completed Bachelor's Degree in Computer
+                                    Engineering with Honors in AI/ML.
+                                </p>
+                            </li>
+                        </ol>
+                    </section>
+
+                    <section class="timeline">
+                        <div class="title-wrapper">
+                            <div class="icon-box">
+                                <ion-icon name="book-outline"></ion-icon>
+                            </div>
+
+                            <h3 class="h3">Experience</h3>
+                        </div>
+
+                        <ol class="timeline-list">
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">
+                                    System Engineer @ TCS
+                                </h4>
+
+                                <span>Oct 2024 - Present</span>
+
+                                <p class="timeline-text">
+                                    Developed REST APIs for Tax Reporting (Spring, MSSQL), 
+                                    improved Excel reporting by 60%, cut DB latency by 40%, 
+                                    ensured quality with JUnit/SonarQube, and migrated to Java 17.
+                                </p>
+                            </li>
+
+                            <li class="timeline-item">
+                                <h4 class="h4 timeline-item-title">
+                                    Intern @ Alhansat Solutions
+                                </h4>
+
+                                <span>Dec 2022 - Feb 2023</span>
+
+                                <p class="timeline-text">
+                                    Designed and developed responsive web pages with seamless user experience across devices.
+                                    Integrated Firebase as the backend database for real-time data storage and retrieval.
+                                </p>
+                            </li>
+                        </ol>
+                    </section>
+
+                    <section class="skill">
+                        <h3 class="h3 skills-title">My skills</h3>
+
+                        <ul class="skills-list content-card">
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Java SpringBoot</h5>
+                                    <data value="95">90%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div
+                                        class="skill-progress-fill"
+                                        style="width: 95%"
+                                    ></div>
+                                </div>
+                            </li>
+
+                            <li class="skills-item"></li>
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Web Development</h5>
+                                    <data value="95">85%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div
+                                        class="skill-progress-fill"
+                                        style="width: 95%"
+                                    ></div>
+                                </div>
+                            </li>
+                            <br>
+
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Python</h5>
+                                    <data value="85">80%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div
+                                        class="skill-progress-fill"
+                                        style="width: 85%"
+                                    ></div>
+                                </div>
+                            </li>
+
+
+                            <li class="skills-item">
+                                <div class="title-wrapper">
+                                    <h5 class="h5">Machine Learning</h5>
+                                    <data value="75">65%</data>
+                                </div>
+
+                                <div class="skill-progress-bg">
+                                    <div
+                                        class="skill-progress-fill"
+                                        style="width: 75%"
+                                    ></div>
+                                </div>
+                            </li>
+
+                            
+                        </ul>
+                    </section>
+
+                    <!--
+          hobbies
+        -->
+                    <br />
+                    <section class="testimonials">
+                        <h3 class="h3 testimonials-title">Interests</h3>
+
+                        <ul class="testimonials-list has-scrollbar">
+                            <li class="testimonials-item">
+                                <div
+                                    class="content-card"
+                                    data-testimonials-item
+                                >
+                                    <figure class="testimonials-avatar-box">
+                                        <img
+                                            src="./assets/images/icon-tech.svg"
+                                            alt="technology"
+                                            width="60"
+                                            data-testimonials-avatar
+                                        />
+                                    </figure>
+
+                                    <h4
+                                        class="h4 testimonials-item-title"
+                                        data-testimonials-title
+                                    >
+                                        Technology
+                                    </h4>
+
+                                    <div
+                                        class="testimonials-text"
+                                        data-testimonials-text
+                                    >
+                                        <p>
+                                            Driven to explore how emerging technologies reshape industries, transform business landscapes, and influence everyday life.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="testimonials-item">
+                                <div
+                                    class="content-card"
+                                    data-testimonials-item
+                                >
+                                    <figure class="testimonials-avatar-box">
+                                        <img
+                                            src="./assets/images/icon-ml.svg"
+                                            alt="ai"
+                                            width="60"
+                                            data-testimonials-avatar
+                                        />
+                                    </figure>
+
+                                    <h4
+                                        class="h4 testimonials-item-title"
+                                        data-testimonials-title
+                                    >
+                                        Back-End Development
+                                    </h4>
+
+                                    <div
+                                        class="testimonials-text"
+                                        data-testimonials-text
+                                    >
+                                        <p>
+                                            Passionate about building scalable architectures and robust APIs using modern backend frameworks.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            <li class="testimonials-item">
+                                <div
+                                    class="content-card"
+                                    data-testimonials-item
+                                >
+                                    <figure class="testimonials-avatar-box">
+                                        <img
+                                            src="./assets/images/icon-music.svg"
+                                            alt="Music note"
+                                            width="60"
+                                            data-testimonials-avatar
+                                        />
+                                    </figure>
+
+                                    <h4
+                                        class="h4 testimonials-item-title"
+                                        data-testimonials-title
+                                    >
+                                        Music
+                                    </h4>
+
+                                    <div
+                                        class="testimonials-text"
+                                        data-testimonials-text
+                                    >
+                                        <p>
+                                            Music has always been a source of calm and relaxation, offering a way to unwind and find tranquility.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+
+                            
+
+                            <li class="testimonials-item">
+                                <div
+                                    class="content-card"
+                                    data-testimonials-item
+                                >
+                                    <figure class="testimonials-avatar-box">
+                                        <img
+                                            src="./assets/images/icon-foot.svg"
+                                            alt="football"
+                                            width="60"
+                                            data-testimonials-avatar
+                                        />
+                                    </figure>
+
+                                    <h4
+                                        class="h4 testimonials-item-title"
+                                        data-testimonials-title
+                                    >
+                                        Football
+                                    </h4>
+
+                                    <div
+                                        class="testimonials-text"
+                                        data-testimonials-text
+                                    >
+                                        <p>
+                                            Football has been a part of my life
+                                            since childhood, and I continue to
+                                            be drawn to it, finding joy in both
+                                            playing and watching.
+                                        </p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+                <!--
+        - #PORTFOLIO
+      -->
+
+                <article class="portfolio" data-page="portfolio">
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+</header>
+
+<section class="projects">
+  <ul class="filter-list">
+    <li class="filter-item">
+      <button class="active" data-filter-btn></button>
+    </li>
+  </ul>
+
+  <div class="filter-select-box">
+    <button class="filter-select" data-select>
+      <div class="select-value" data-select-value></div>
+      <div class="select-icon">
+        <ion-icon name="chevron-down"></ion-icon>
+      </div>
+    </button>
+
+  </div>
+
+  <!-- Project Grid Starts Here -->
+  <ul class="project-list">
+    <li class="project-item active">
+      <a href="https://github.com/Savio-R7/Chatify" target="_blank">
+        <figure class="blog-banner-box">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+          <img src="./assets/images/webchat.png" alt="webchat" loading="lazy" />
+        </figure>
+        <h3 class="project-title">Chatify</h3>
+      </a>
+    </li>
+
+    <li class="project-item active">
+      <a href="https://github.com/Savio-R7/emp-management-system" target="_blank">
+        <figure class="blog-banner-box">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+          <img src="./assets/images/empmanage.png" alt="empmanage" loading="lazy" />
+        </figure>
+        <h3 class="project-title">Employee Management System</h3>
+      </a>
+    </li>
+
+    <li class="project-item active">
+      <a href="https://github.com/Savio-R7/java-quiz-microservice" target="_blank">
+        <figure class="blog-banner-box">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+          <img src="./assets/images/quizapp.png" alt="zenith" loading="lazy" />
+        </figure>
+        <h3 class="project-title">Java Quiz Microservice</h3>
+      </a>
+    </li>
+
+    <li class="project-item active">
+      <a href="https://github.com/Savio-R7/Resume-Screener" target="_blank">
+        <figure class="blog-banner-box">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+          <img src="./assets/images/resume_screener.jpeg" alt="resume Screener" loading="lazy" />
+        </figure>
+        <h3 class="project-title">Smart Resume Screener</h3>
+      </a>
+    </li>
+
+    <li class="project-item active">
+      <a href="https://github.com/Savio-R7/Stock-Market-Analyzer" target="_blank">
+        <figure class="blog-banner-box">
+          <div class="project-item-icon-box">
+            <ion-icon name="eye-outline"></ion-icon>
+          </div>
+          <img src="./assets/images/stock.jpg" alt="stock market" loading="lazy" />
+        </figure>
+        <h3 class="project-title">Stock Market Analyzer</h3>
+      </a>
+    </li>
+  </ul>
+</section>
+</article>
+
+
+                <!--
+        - #BLOG
+      -->
+
+                <article class="blog" data-page="publications">
+                    <header>
+                        <h2 class="h2 article-title">Publications</h2>
+                    </header>
+
+                    <section class="blog-posts">
+                        <ul class="blog-posts-list">
+                            <li class="blog-post-item">
+                                <a
+                                    href="https://ieeexplore.ieee.org/document/10452483" target="_blank"
+                                >
+                                    <figure class="blog-banner-box">
+                                        <img
+                                            src="./assets/images/zenith-ai.png"
+                                            alt="Design conferences in 2022"
+                                            loading="lazy"
+                                        />
+                                    </figure>
+
+                                    <div class="blog-content">
+                                        <div class="blog-meta">
+                                            <p class="blog-category">
+                                                Conference
+                                            </p>
+
+                                            <span class="dot"></span>
+
+                                            <time datetime="2023-06-06"
+                                                >Dec 22, 2023</time
+                                            >
+                                        </div>
+
+                                        <h3 class="h3 blog-item-title">
+                                            Zenith.ai: AI-driven resume screening with bias-free skills matching.
+                                        </h3>
+
+                                        <p class="blog-text">
+                                            3rd International Conference on
+                                            Data Science, Agents and Artifical Intelligence(IEEE)
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li class="blog-post-item">
+                                <a
+                                    href="https://www.irjet.net/archives/V10/i4/IRJET-V10I4247.pdf"  target="_blank"
+                                >
+                                    <figure class="blog-banner-box">
+                                        <img
+                                            src="./assets/images/irjet-logo.png"
+                                            alt="Design conferences in 2022"
+                                            loading="lazy"
+                                        />
+                                    </figure>
+
+                                    <div class="blog-content">
+                                        <div class="blog-meta">
+                                            <p class="blog-category">
+                                                Journal
+                                            </p>
+
+                                            <span class="dot"></span>
+
+                                            <time datetime="2024-02-22"
+                                                >April 10, 2023</time
+                                            >
+                                        </div>
+
+                                        <h3 class="h3 blog-item-title">
+                                            Master’s theorem Derivative Analysis.
+                                        </h3>
+
+                                        <p class="blog-text">
+                                            International Research Journal of Engineering and Technology (IRJET)
+                                        </p>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                </article>
+
+                <!--
+        - #CONTACT
+      -->
+
+                <article class="contact" data-page="contact">
+                    <header>
+                        <h2 class="h2 article-title">Contact</h2>
+                    </header>
+
+                    <section class="mapbox" data-mapbox>
+                        <figure>
+                            <iframe
+                                src="https://www.google.com/maps/embed/v1/place?q=India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                                width="400"
+                                height="300"
+                                style="border:0;"
+                                allowfullscreen=""
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                ></iframe>
+                        </figure>
+                    </section>
+
+
+                    <section class="contact-form">
+                        <h3 class="h3 form-title">Contact Form</h3>
+
+                        <form
+                            method="POST"
+                            action="https://getform.io/f/bqonlwwb"
+                            class="form"
+                            data-form
+                        >
+                            <div class="input-wrapper">
+                                <input
+                                    type="text"
+                                    name="fullname"
+                                    class="form-input"
+                                    placeholder="Full name"
+                                    required
+                                    data-form-input
+                                />
+
+                                <input
+                                    type="email"
+                                    name="email"
+                                    class="form-input"
+                                    placeholder="Email address"
+                                    required
+                                    data-form-input
+                                />
+                            </div>
+
+                            <textarea
+                                name="message"
+                                class="form-input"
+                                placeholder="Your Message"
+                                required
+                                data-form-input
+                            ></textarea>
+
+                            <button
+                                class="form-btn"
+                                type="submit"
+                                disabled
+                                data-form-btn
+                            >
+                                <ion-icon name="paper-plane"></ion-icon>
+                                <span>Send Message</span>
+                            </button>
+                        </form>
+                        <script>
+                            // Get the form element
+                            const form = document.querySelector("[data-form]");
+
+                            // Add a submit event listener to the form
+                            form.addEventListener("submit", function (event) {
+                                // Prevent the default form submission behavior
+                                event.preventDefault();
+
+                                // Submit the form using fetch or any other method
+                                fetch(this.action, {
+                                    method: this.method,
+                                    body: new FormData(this),
+                                })
+                                    .then((response) => {
+                                        // Check if the form submission was successful
+                                        if (response.ok) {
+                                            // Reset the form fields
+                                            this.reset();
+                                            // Optionally, display a success message to the user
+                                            alert("Message sent successfully!");
+                                        } else {
+                                            // Handle errors if the form submission failed
+                                            alert(
+                                                "An error occurred. Please try again later."
+                                            );
+                                        }
+                                    })
+                                    .catch((error) => {
+                                        console.error("Error:", error);
+                                        alert(
+                                            "An error occurred. Please try again later."
+                                        );
+                                    });
+                            });
+                        </script>
+                    </section>
+                </article>
+            </div>
+        </main>
+
+        <!--
+    - ionicon link
+  -->
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
